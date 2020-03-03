@@ -1,0 +1,50 @@
+
+/*Fonctionne sous chrome*/
+html {
+  background-color: #F0CD68;
+  font-family : verdana;
+}
+
+
+/*Style du Formulaire*/
+  form {
+    position: relative;
+    background-color: white;
+    opacity: 0.8;
+    border : solid 1px;
+    width : 400px;
+    margin : 5%;
+    z-index: 1;
+  }
+
+  fieldset {
+    margin:5px;
+  }
+
+  #bouton {
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  #valider {
+    background-color: #F0CD68;
+    padding: 10px;
+  }
+
+  #passagers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #adultes, #enfants, #bebes {
+    width : 50px;
+  }
+
+
+  /*Positionnement photo*/
+  img{
+    position:absolute;
+    top: 10px;
+    z-index: 0;
+  }

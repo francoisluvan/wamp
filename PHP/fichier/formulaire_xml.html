@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire IUT xml</title>
+    <link rel="stylesheet" type="text/css" href="avion.css" />
+</head>
+<body>
+
+<!-- Formulaire pour lier xml -->
+  <form action=tpxml.php method="GET">
+
+    <fieldset id="fieldset">
+
+      <legend> Formulaire étudiant de l'IUT : </legend>
+      <br>
+
+      <div>
+        <label for="id"> Numéro d'étudiant <br></label>
+        <input id="id" type=number name="id" min="1" max="100" placeholder="0" required >
+        </input>
+      </div>
+
+      <br>
+      <div>
+        <label for="nom"> Nom de l'étudiant <br></label>
+        <input id="nom" type=text name="nom" placeholder="Pierre" required>
+        </input>
+      </div>
+      <br>
+
+
+      <br>
+      <!-- menu déroulant choisir un UV1-->
+      <div>
+        <label for="uv1"> Choisissez votre UV1 <br></label>
+        <select name="uv1" id="uv1">
+            <option value="cours1" name="cour1">Cours 1 </option>
+            <option value="cours2" name="cours2">Cours 2 </option>
+        </select>
+      </div>
+      <br>
+
+      <!-- menu déroulant choisir un UV2-->
+      <div>
+        <label for="uv2"> Choisissez votre UV2 <br></label>
+        <select name="uv2" id="uv2">
+            <option value="cours1" name="cour1">Cours 1 </option>
+            <option value="cours2" name="cours2">Cours 2 </option>
+        </select>
+      </div>
+      <br>
+
+      <!-- Bouton submit -->
+      <div id="bouton">
+        <input id="valider" type=submit value="envoyer" name="valider">
+      </div>
+
+      <br>
+
+    </fieldset>
+  </form>
+
+
+
+
+</body>
+</html>

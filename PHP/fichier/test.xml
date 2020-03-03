@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<iut>
+  <etudiant>
+    <id> 1 </id>
+    <nom> etudiant 1 </nom>
+  </etudiant>
+  <etudiant>
+    <id> 1 </id>
+    <nom> etudiant 1 </nom>
+  </etudiant>
+</iut>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire avion</title>
+    <link rel="stylesheet" type="text/css" href="avion.css" />
+</head>
+<body>
+
+<!-- Formulaire -->
+  <form action=reponse.php method="GET">
+
+    <fieldset id="fieldset">
+
+      <legend> AIR-FRANCOIS : </legend>
+
+        <!-- menu déroulant départ -->
+          <div>
+            <label for="depart"> Au départ de <br></label>
+            <select name="lieuDep" id="depart">
+                <option value="Biarritz" name="lieuDep">Biarritz BIQ</option>
+                <option value="Brest" name="lieuDep">Brest BES </option>
+                <option value="Grenoble" name="lieuDep">Grenoble GNB</option>
+                <option value="Lyon" name="lieuDep">Lyon LYS</option>
+                <option value="Nice" name="lieuDep">Nice NCE</option>
+            </select>
+          </div>
+
+          <br>
+
+          <!-- menu déroulant destination -->
+          <div>
+            <label for="destination"> Destination <br></label>
+            <select name="lieuArr" id="destination">
+                <option value="Ajaccio" name="lieuArr">Ajaccio AJA </option>
+                <option value="Brest" name="lieuArr">Brest BES </option>
+                <option value="Bordeaux" name="lieuArr">Bordeaux BOD</option>
+                <option value="Nantes" name="lieuArr">Nantes NTE</option>
+                <option value="Toulouse" name="lieuArr">Toulouse TLS</option>
+            </select>
+          </div>
+
+          <br>
+
+
+      <!-- Dates aller et retour champs requis -->
+      <div>
+        <label for="date_aller"> Date aller * <br></label>
+        <input id="date_aller" type=text value="" placeholder="jj/mm/aaaa" name="dateDep" required >
+        </input>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="date_retour"> Date retour * <br></label>
+        <input id="date_retour" type=text placeholder="jj/mm/aaaa" name="dateRet" required >
+        </input>
+      </div>
+
+      <br>
+
+
+      <!-- Champs passagers -->
+      <div id="passagers">
+        <div>
+          <label for="adultes"> Adultes <br></label>
+          <input id="adultes" type=number value="0" name="adultes" min="0" max="5" >
+          </input>
+        </div>
+
+        <div>
+          <label for="enfants"> Enfants &le; 16 ans <br></label>
+          <input id="enfants" type=number value="0" name="enfants" min="0" max="5" >
+          </input>
+        </div>
+
+        <div>
+          <label for="bebes"> Bébés &le; 2 ans <br></label>
+          <input id="bebes" type=number value="0" name="bebes" min="0" max="5" >
+          </input>
+        </div>
+      </div>
+
+      <br>
+
+
+      <!-- Bouton submit -->
+      <div id="bouton">
+        <input id="valider" type=submit value="AFFICHER LES VOLS" name="valider">
+      </div>
+
+      <br>
+
+    </fieldset>
+  </form>
+
+  <!-- Photo avion background -->
+  <img src="avion.jpg" alt="photo_avion">
+
+
+</body>
+</html>

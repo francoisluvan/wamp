@@ -1,0 +1,53 @@
+fieldset {
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+textarea {
+  width:100%;
+  height : 100px;
+}
+
+legend {
+  color:blue;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#fieldset1 {
+  display:flex;
+  flex-direction: row;
+}
+
+#fieldset1 label {
+  position : absolute;
+}
+
+#fieldset1 .champ {
+  position: relative;
+  margin-left: 100px;
+}
+
+select {
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid black;
+  background: linear-gradient(lightgray, white);
+}
+
+.champ {
+  border: 1px solid gray;
+}
+
+#valider {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background: linear-gradient(white, lightgray);
+}

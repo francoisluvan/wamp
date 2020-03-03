@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shoutbox</title>
+    <link href="shoutbox.css" type="text/css" rel="stylesheet">
+    <link href="jqueryui.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1> Bienvenue dans ma shoutbox </h1>
+
+    <!-- Formulaire -->
+  <div>
+    <form id='form' >
+      <fieldset id = "fieldset1">
+        <legend> Entrez votre pseudo : </legend>
+            <div>
+                <label for="pseudo">Pseudo</label>
+                <input  type="text" id="pseudo" name="pseudo" required />
+            </div>
+            <div id="madiv">
+              <input id="connexion" class="boutons" type="submit" value="connexion" name="connexion" />
+            </div>
+      </fieldset>
+  </form>
+  <br />
+</div>
+
+
+
+<!-- La shoutbox -->
+<div id="shoutbox" >
+</div>
+
+<!-- boite d'alerte si pas de pseudo renseigné
+<div id="dialog" style="display: none">
+   Tu dois entrer un pseudo pour poster dans le tchat
+</div>-->
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="shoutbox.js"></script>
+</body>
+</html>

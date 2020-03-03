@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+
+
+    <iut>
+      <etudiant id='1' nom='Paul'>
+        <uv1> Cours 1 </uv1>
+        <uv2> Cours 2 </uv2>
+      </etudiant>
+      <etudiant id='2' nom='Jacques'>
+        <uv1> Cours 1 </uv1>
+        <uv2> Cours 2 </uv2>
+      </etudiant>
+      <etudiant id='3' nom='Pierre'>
+        <uv1> Cours 1 </uv1>
+        <uv2> Cours 2 </uv2>
+      </etudiant>
+      <etudiant id='4' nom='Claire'>
+        <uv1> Cours 1 </uv1>
+        <uv2> Cours 2 </uv2>
+      </etudiant>
+      <etudiant id='6' nom='Caroline'>
+      <uv1> cours2 </uv1>
+        <uv2> cours1 </uv2>
+        </etudiant>
+      <etudiant id='' nom=''>
+      <uv1>  </uv1>
+        <uv2>  </uv2>
+        </etudiant>
+      </iut>

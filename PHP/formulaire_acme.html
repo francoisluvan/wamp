@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" type="text/css" href="formulaire.css" />
+</head>
+<body>
+
+  <header>
+      <img src="coyote.jpg" alt="photo coyote" width=150px height=150px />
+      <div>
+        <h1> Entreprise ACME </h1>
+        <h1> Formulaire de commande de matériel </h1>
+      </div>
+  </header>
+
+  <br>
+
+  <form action=retour.php method="GET">
+
+    <fieldset id = "fieldset1">
+      <legend> VOS COORDONÉES : </legend>
+      <div>
+          <label for="Nom">Nom</label>
+          <input class="champ" type="text" id="Nom" name="nom" required>
+      </div>
+      <div>
+          <label for="Prenom">Prénom</label>
+          <input class="champ" type="text" id="prénom" name="prenom" required>
+      </div>
+      <div>
+          <label for="e-mail">e-mail</label>
+          <input class="champ" type="text" id="e-mail" name="email">
+      </div>
+    </fieldset>
+
+    <fieldset id="fieldset2">
+      <legend> VOULEZ-VOUS RECEVOIR NOS PUBLICITÉS : </legend>
+      <div>
+          <input type="radio" id="oui" name="pub" value=oui checked> oui </input>
+          <input type="radio" id="non" name="pub" value=non > non </input>
+      </div>
+    </fieldset>
+
+    <fieldset id="fieldset3">
+      <legend> COCHEZ LES ARTICLES QUE VOUS COMMANDEZ (PLUSIEURS CHOIX POSSIBLES) : </legend>
+        <div>
+          <input type="checkbox" id="enclumes" name="commande[]" value="Des enclumes" checked>
+          <label for="enclumes">Enclumes</label>
+        </div>
+        <div>
+          <input type="checkbox" id="patins" name="commande[]" value="Des patins à roulettes">
+          <label for="patins">Patins à roulettes fusées</label>
+        </div>
+        <div>
+          <input type="checkbox" id="tremplin" name="commande[]" value="Un tremplin géant">
+          <label for="tremplin">Tremplin géant</label>
+        </div>
+        <div>
+          <input type="checkbox" id="rails" name="commande[]" value="Des rails de train">
+          <label for="rails">Rails de train</label>
+        </div>
+    </fieldset>
+
+    <fieldset id="fieldset4">
+      <legend> OFFRE PROMOTIONNELLE, CHOISISSEZ UN CADEAU : </legend>
+          <div>
+            <select name="coyote" id="coyote">
+                <option value="rien" name="cadeau">--choix peluche--</option>
+                <option value="coyote en peluche" name="cadeau">coyote en peluche</option>
+                <option value="coyote en sucre" name="cadeau">coyote en sucre</option>
+                <option value="coyote en plastique" name="cadeau">coyote en plastique</option>
+            </select>
+          </div>
+    </fieldset>
+
+    <fieldset id="fieldset5">
+      <legend> VOS COMMENTAIRES : </legend>
+        <div>
+            <textarea id="destination" name="message" >
+            </textarea>
+        </div>
+    </fieldset>
+
+    <br>
+
+    <div>
+      <input id="valider" type=submit value=Commander name="Commander">
+    </div>
+  </form>
+
+    <?PHP
+
+
+
+
+    ?>
+
+</body>
+</html>

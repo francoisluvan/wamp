@@ -1,0 +1,1 @@
+{"animal":[{"nom":"Tigrou","img":"<img class='imganimal'  src='tigre.jpg' alt='photo tigre'/>","description":"","pays":"","input":"<input type='submit' value='voir'>"},{"nom":"lion","img":"<img class='imganimal'  src='lion.jpg' alt='photo leopard'/>","description":"Le roi de la savane","pays":"Tanzanie","input":"<input type='submit' value='voir'>"}]}

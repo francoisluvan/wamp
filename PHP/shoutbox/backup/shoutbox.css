@@ -1,0 +1,73 @@
+body{
+  display : flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Odibee Sans', cursive;
+  background-color: white;
+}
+
+#shoutbox{
+  width : 80%;
+  height : 30em;
+  background-color: #82E8FF;
+  border: solid 1px lightgrey;
+  margin: auto;
+  border-radius: 5px 5px 5px 5px;
+  overflow: auto;
+}
+
+.boutons{
+  border-radius: 5px 5px 5px 5px;
+  background-color: black;
+  border: none;
+  color : white;
+  padding : 5px;
+  margin : auto;
+  width : 30%;
+}
+
+#form{
+  background-color: #82D8FF;
+  width : 80%;
+  margin: auto;
+}
+
+#tchat{
+  background-color: lightgrey;
+  width : 80%;
+  margin: auto;
+}
+
+fieldset{
+  border : solid 1px black;
+}
+
+textarea {
+  width:50%;
+}
+
+p{
+  margin: 5%;
+}
+
+#pseudo{
+  margin : 10px;
+}
+
+#pseudo1{
+  color:blue;
+  font-size: 125%;
+}
+
+#date{
+  font-style: italic;
+  font-family: monospace !important;
+  font-size: 80%;
+}
+
+
+#nbspan{
+  margin : auto;
+  border : solid 1px black;
+  padding : 5px;
+}
